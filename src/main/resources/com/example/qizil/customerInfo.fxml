@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="637.0" prefWidth="718.0" style="-fx-background-color: #290903;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="satisTable" layoutY="261.0" prefHeight="329.0" prefWidth="361.0">
+        <columns>
+          <TableColumn fx:id="satisData" prefWidth="90.18413180112839" text="Tarix" />
+          <TableColumn fx:id="satisCustomer" prefWidth="104.81587219238281" text="Müştəri" />
+            <TableColumn fx:id="satisEyar" prefWidth="76.63182067871094" text="Əyar" />
+            <TableColumn fx:id="satisQram" prefWidth="89.08036804199219" text="Qram" />
+        </columns>
+      </TableView>
+      <TableView fx:id="odenisTable" layoutX="375.0" layoutY="260.0" prefHeight="329.0" prefWidth="358.0">
+        <columns>
+          <TableColumn fx:id="odenisDate" prefWidth="97.81491088867188" text="Tarix" />
+          <TableColumn fx:id="odenisCustomer" prefWidth="92.68505859375" text="Müştəri" />
+            <TableColumn fx:id="odenisEyar" prefWidth="78.2384033203125" text="Əyar" />
+            <TableColumn fx:id="odenisQram" prefWidth="88.94873046875" text="Qram" />
+        </columns>
+      </TableView>
+      <Label layoutX="20.0" layoutY="47.0" prefHeight="17.0" prefWidth="113.0" text="Müştəri" textFill="#fffbfb">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="customerName" editable="false" layoutX="144.0" layoutY="44.0" />
+      <TextField fx:id="customer585_debt" editable="false" layoutX="144.0" layoutY="95.0" />
+      <Label layoutX="20.0" layoutY="99.0" prefHeight="17.0" prefWidth="99.0" text="585 borc" textFill="#fffafa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="141.0" text="750 borc" textFill="#fffdfd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customer750_debt" editable="false" layoutX="144.0" layoutY="138.0" />
+      <Label layoutX="391.0" layoutY="98.0" prefHeight="17.0" prefWidth="99.0" text="585 " textFill="#fffafa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="totalSale_585" editable="false" layoutX="456.0" layoutY="93.0" prefHeight="26.0" prefWidth="114.0" />
+      <Label layoutX="392.0" layoutY="141.0" text="750 " textFill="#fffdfd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="totalSale_750" editable="false" layoutX="458.0" layoutY="137.0" prefHeight="26.0" prefWidth="112.0" />
+      <TextField fx:id="totalPayment_585" editable="false" layoutX="599.0" layoutY="95.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="totalPayment_750" editable="false" layoutX="599.0" layoutY="135.0" prefHeight="26.0" prefWidth="112.0" />
+      <Label layoutX="474.0" layoutY="57.0" text="Yekun Satış" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="605.0" layoutY="59.0" text="Yekun Ödəniş" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="223.0" prefHeight="20.0" prefWidth="63.0" text="Satış" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="521.0" layoutY="222.0" prefHeight="20.0" prefWidth="63.0" text="Ödəniş" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+.button {
+    -fx-background-color: #2D3347; /* Charming background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14px; /* Font size */
+
+    -fx-cursor: hand; /* Cursor style */
+}
+
+.button:hover {
+    -fx-background-color: #6886f6; /* Background color on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #000000; /* Background color when pressed */
+}

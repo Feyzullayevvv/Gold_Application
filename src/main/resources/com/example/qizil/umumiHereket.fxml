@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="675.0" prefWidth="718.0" style="-fx-background-color: #6b1203;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.qizil.Controllers.umumiHereketController">
+   <children>
+      <DatePicker fx:id="startDatePicker" layoutX="41.0" layoutY="139.0" promptText="Başlanğıc Tarix" />
+      <Label layoutX="505.0" layoutY="18.0" prefHeight="29.0" prefWidth="84.0" text="Satış" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="206.0" text="Ödəniş" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="totalPayment_585" editable="false" layoutX="433.0" layoutY="273.0" prefHeight="26.0" prefWidth="85.0" />
+      <TextField fx:id="totalPayment_750" editable="false" layoutX="552.0" layoutY="272.0" prefHeight="26.0" prefWidth="85.0" />
+      <TextField fx:id="totalSale_585" editable="false" layoutX="433.0" layoutY="77.0" prefHeight="26.0" prefWidth="85.0" />
+      <TextField fx:id="totalSale_750" editable="false" layoutX="552.0" layoutY="77.0" prefHeight="26.0" prefWidth="85.0" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="460.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="585">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="460.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="585">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="578.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="750">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="579.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="750">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="endDatePicker" layoutX="40.0" layoutY="208.0" promptText="Son Tarix" />
+   </children>
+</AnchorPane>

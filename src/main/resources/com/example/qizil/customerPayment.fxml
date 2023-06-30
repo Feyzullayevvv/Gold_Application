@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="297.0" style="-fx-background-color: #290903;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.qizil.Controllers.odenishDialog">
+   <children>
+      <ImageView fitHeight="297.0" fitWidth="323.0" opacity="0.43" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/login.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="38.0" prefHeight="18.0" prefWidth="89.0" text="Müştəri" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <TextField fx:id="customerName" editable="false" layoutX="97.0" layoutY="38.0" />
+      <Label layoutX="24.0" layoutY="96.0" text="585 Borc" textFill="#fff6f6">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="borc_585" layoutX="97.0" layoutY="92.0" />
+      <Label layoutX="27.0" layoutY="149.0" text="750 Borc" textFill="#fffbfb">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="borc_750" layoutX="97.0" layoutY="146.0" />
+      <ChoiceBox fx:id="choicebox" layoutX="7.0" layoutY="205.0" prefHeight="27.0" prefWidth="89.0" />
+      <TextField fx:id="gram" layoutX="122.0" layoutY="206.0" promptText="Qram" />
+   </children>
+</AnchorPane>

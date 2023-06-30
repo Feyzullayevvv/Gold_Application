@@ -1,0 +1,16 @@
+@keyframes shake {
+    0%, 100% {
+        -fx-translate-x: 0;
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -fx-translate-x: -10px;
+    }
+    20%, 40%, 60%, 80% {
+        -fx-translate-x: 10px;
+    }
+}
+
+.shake {
+    -fx-animation-name: shake;
+    -fx-animation-duration: 0.4s;
+}

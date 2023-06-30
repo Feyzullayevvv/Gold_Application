@@ -1,0 +1,5 @@
+#gridPane {
+    -fx-background-image: url('/Users/muhammadfeyzullayev/Documents/Java/Qizil/src/main/resources/com/example/qizil/images/login.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

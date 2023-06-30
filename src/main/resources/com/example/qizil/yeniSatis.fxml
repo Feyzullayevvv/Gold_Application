@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="satisPanel" prefHeight="675.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.qizil.Controllers.yeniSatisController">
+    <children>
+        <TableView fx:id="customerTable" layoutX="39.0" layoutY="67.0" onMouseClicked="#handleClick" prefHeight="486.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="199.11995315551758" text="Müştəri" />
+                <TableColumn fx:id="customer585_debt" prefWidth="198.38006591796875" text="585 borc" />
+                <TableColumn fx:id="customer750_debt" prefWidth="199.69024658203125" text="750 borc" />
+            </columns>
+        </TableView>
+        <TextField fx:id="search" layoutX="71.0" layoutY="29.0" onKeyReleased="#handleKeyReleased" promptText="Müştəri adı" />
+        <ImageView fitHeight="19.0" fitWidth="17.0" layoutX="48.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/searchİcons.png" />
+            </image>
+        </ImageView>
+
+    </children>
+</AnchorPane>

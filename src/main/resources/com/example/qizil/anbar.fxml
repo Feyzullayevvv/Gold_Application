@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anbarPane" prefHeight="675.0" prefWidth="718.0" style="-fx-background-color: #290903;" stylesheets="@css/anbar.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.qizil.Controllers.anbarController">
+
+     <Label layoutX="449.0" layoutY="101.0" styleClass="styled-label" text="750" textFill="WHITE">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+     <TextField fx:id="anbar750" editable="false" layoutX="404.0" layoutY="164.0" styleClass="styled-text-field" />
+     <TextField fx:id="anbar585" editable="false" layoutX="66.0" layoutY="165.0" styleClass="styled-text-field" />
+     <Label layoutX="105.0" layoutY="101.0" styleClass="styled-label" text="585" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Button layoutX="408.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleAddAnbar" prefHeight="49.0" prefWidth="185.0" styleClass="styled-button" text="Əlavə Et" />
+   <Button layoutX="96.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleDecreaseAnbar" prefHeight="49.0" prefWidth="185.0" styleClass="styled-button" text="Mal silmək" />
+
+</AnchorPane>
